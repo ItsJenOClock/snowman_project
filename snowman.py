@@ -16,7 +16,7 @@ SNOWMAN_GRAPHIC = [
 
 def get_letter_from_user(snowman_dict, wrong_guesses_list):
     while True:
-        user_input_string = input("\nPlease guess a letter: ")
+        user_input_string = input("\nPlease guess a letter: ").lower()
         print()
 
         if not user_input_string.isalpha(): 
